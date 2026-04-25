@@ -1,6 +1,6 @@
 export default function Home() {
   return (
-    <main className="p-10 max-w-3xl mx-auto">
+    <main className="p-10 max-w-3xl">
       <h1 className="text-3xl font-bold">M&S United LLC</h1>
 
       <p className="mt-4">

@@ -1,6 +1,6 @@
 export default function TermsPage() {
   return (
-    <main className="mx-auto max-w-3xl px-6 py-12 text-gray-800">
+    <main className="max-w-3xl px-6 py-12 text-gray-800">
       <h1 className="text-3xl font-bold text-gray-950">Terms and Conditions</h1>
 
       <p className="mt-4 text-sm text-gray-500">Last updated: April 25, 2026</p>
