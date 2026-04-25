@@ -1,60 +1,62 @@
+const termsSections = [
+  {
+    title: "Use of Website",
+    content:
+      "This website is provided for general business information purposes. You agree not to misuse the website or use it for unlawful activities.",
+  },
+  {
+    title: "Company Information",
+    content:
+      "M&S United LLC is based in New Mexico, United States. We provide business, digital, software, and web-related services.",
+  },
+  {
+    title: "No Warranty",
+    content:
+      "Information on this website is provided as-is. While we make reasonable efforts to keep details accurate and current, we do not guarantee completeness at all times.",
+  },
+  {
+    title: "Limitation of Liability",
+    content:
+      "M&S United LLC is not liable for direct or indirect damages resulting from the use of this website.",
+  },
+  {
+    title: "Changes to These Terms",
+    content:
+      "These Terms and Conditions may be updated periodically. Any changes will be posted on this page.",
+  },
+];
+
 export default function TermsPage() {
   return (
-    <main className="max-w-3xl px-6 py-12 text-gray-800">
-      <h1 className="text-3xl font-bold text-gray-950">Terms and Conditions</h1>
+    <main className="page">
+      <section className="page-hero">
+        <p className="eyebrow">Legal</p>
+        <h1 className="page-title">Terms and Conditions</h1>
+        <p className="page-intro">Last updated: April 25, 2026</p>
+      </section>
 
-      <p className="mt-4 text-sm text-gray-500">Last updated: April 25, 2026</p>
-
-      <section className="mt-8 space-y-4">
+      <article className="legal-prose">
         <p>
-          Welcome to M&amp;S United LLC. By accessing or using our website, you
+          Welcome to M&amp;S United LLC. By accessing or using this website, you
           agree to these Terms and Conditions.
         </p>
 
-        <h2 className="text-xl font-semibold text-gray-950">Use of Website</h2>
-        <p>
-          This website is provided for general business information purposes. You
-          agree not to misuse the website or use it for any unlawful activity.
-        </p>
+        {termsSections.map((section) => (
+          <section key={section.title}>
+            <h2>{section.title}</h2>
+            <p>{section.content}</p>
+          </section>
+        ))}
 
-        <h2 className="text-xl font-semibold text-gray-950">Company Information</h2>
+        <h2>Contact Us</h2>
         <p>
-          M&amp;S United LLC is a company based in New Mexico, United States. We
-          provide business, digital, software, and web-related services.
-        </p>
-
-        <h2 className="text-xl font-semibold text-gray-950">No Warranty</h2>
-        <p>
-          The information on this website is provided as-is. We make reasonable
-          efforts to keep information accurate, but we do not guarantee that all
-          content will always be complete, current, or error-free.
-        </p>
-
-        <h2 className="text-xl font-semibold text-gray-950">Limitation of Liability</h2>
-        <p>
-          M&amp;S United LLC is not liable for any direct or indirect damages
-          resulting from the use of this website.
-        </p>
-
-        <h2 className="text-xl font-semibold text-gray-950">Changes to These Terms</h2>
-        <p>
-          We may update these Terms and Conditions from time to time. Any changes
-          will be posted on this page.
-        </p>
-
-        <h2 className="text-xl font-semibold text-gray-950">Contact Us</h2>
-        <p>
-          If you have any questions about these Terms and Conditions, please
-          contact us at{" "}
-          <a
-            href="mailto:info@yourdomain.com"
-            className="font-medium text-blue-600 underline"
-          >
+          If you have questions about these Terms and Conditions, contact us at{" "}
+          <a href="mailto:info@yourdomain.com" className="font-semibold underline">
             info@yourdomain.com
           </a>
           .
         </p>
-      </section>
+      </article>
     </main>
   );
 }
