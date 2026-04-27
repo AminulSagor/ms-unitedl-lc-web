@@ -44,8 +44,8 @@ export default function PrivacyPolicy() {
         <h2>Contact</h2>
         <p>
           For privacy-related questions, contact{" "}
-          <a href="mailto:info@yourdomain.com" className="font-semibold underline">
-            info@yourdomain.com
+          <a href="mailto:mosharrafhossain@msunitedlc.com" className="font-semibold underline">
+            mosharrafhossain@msunitedlc.com
           </a>
           .
         </p>

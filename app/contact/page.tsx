@@ -3,7 +3,7 @@ import Link from "next/link";
 const contactCards = [
   {
     title: "Email",
-    value: "info@yourdomain.com",
+    value: "mosharrafhossain@msunitedlc.com",
     detail: "Best for project inquiries, proposals, and partnership requests.",
   },
   {
@@ -31,8 +31,8 @@ export default function Contact() {
         </p>
 
         <div className="page-actions">
-          <a href="mailto:info@yourdomain.com" className="button button--primary">
-            Email info@yourdomain.com
+          <a href="mailto:mosharrafhossain@msunitedlc.com" className="button button--primary">
+            Email mosharrafhossain@msunitedlc.com
           </a>
           <Link href="/services" className="button button--secondary">
             Review Services First

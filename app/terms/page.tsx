@@ -51,8 +51,8 @@ export default function TermsPage() {
         <h2>Contact Us</h2>
         <p>
           If you have questions about these Terms and Conditions, contact us at{" "}
-          <a href="mailto:info@yourdomain.com" className="font-semibold underline">
-            info@yourdomain.com
+          <a href="mailto:mosharrafhossain@msunitedlc.com" className="font-semibold underline">
+            mosharrafhossain@msunitedlc.com
           </a>
           .
         </p>

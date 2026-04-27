@@ -96,7 +96,7 @@ export default function Home() {
 
         <article className="surface-card">
           <h3>Primary contact</h3>
-          <p>info@yourdomain.com</p>
+          <p>mosharrafhossain@msunitedlc.com</p>
         </article>
 
         <article className="surface-card">
