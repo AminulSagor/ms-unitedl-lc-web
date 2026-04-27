@@ -30,14 +30,29 @@ export default function Contact() {
           a practical path forward.
         </p>
 
-        <div className="page-actions">
-          <a href="mailto:mosharrafhossain@msunitedlc.com" className="button button--primary">
-            Email{/*  mosharrafhossain@msunitedlc.com */}
-          </a>
-          <Link href="/services" className="button button--secondary">
-            Review Services First
-          </Link>
-        </div>
+<div className="page-actions">
+  <a
+    href="https://mail.google.com/mail/?view=cm&fs=1&to=mosharrafhossain@msunitedlc.com"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="button button--primary"
+  >
+    Email
+  </a>
+
+  {/* <a
+    href="https://mail.google.com/mail/?view=cm&fs=1&to=mosharrafhossain@msunitedlc.com"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="button button--secondary"
+  >
+    Open in Gmail
+  </a> */}
+
+  <Link href="/services" className="button button--secondary">
+    Review Services First
+  </Link>
+</div>
       </section>
 
       <section className="section-grid" aria-label="Contact details">
