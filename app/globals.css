@@ -308,10 +308,10 @@ a {
 
 .serial-label {
   margin: 0;
-  font-size: 0.71rem;
+  font-size: 0.9rem;
   text-transform: uppercase;
   letter-spacing: 0.13em;
-  font-weight: 700;
+  font-weight: 800;
   color: var(--text-muted);
 }
 
@@ -428,6 +428,29 @@ a {
 
   .main-nav {
     justify-content: flex-start;
+  }
+}
+
+@media (max-width: 640px) {
+  .brand {
+    margin-inline: auto;
+    align-items: center;
+    text-align: center;
+  }
+
+  .page-actions {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 0.55rem;
+  }
+
+  .button {
+    min-height: 2.7rem;
+    padding: 0.58rem 0.62rem;
+    font-size: clamp(0.72rem, 2.7vw, 0.87rem);
+    line-height: 1.2;
+    text-align: center;
   }
 }
 

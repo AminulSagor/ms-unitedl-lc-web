@@ -72,7 +72,7 @@ export default function RootLayout({
 
         <footer className="site-footer">
           <div className="site-footer__inner">
-            <p>Operating from New Mexico, United States.</p>
+            <p>Operating from 1209 Mountain Road Pl NE Ste R, Albuquerque, NM 87110.</p>
             <nav className="footer-links" aria-label="Legal">
               <Link href="/privacy-policy">Privacy Policy</Link>
               <Link href="/terms">Terms</Link>

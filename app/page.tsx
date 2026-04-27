@@ -43,7 +43,7 @@ export default function Home() {
   return (
     <main className="page">
       <section className="page-hero">
-        <p className="eyebrow">New Mexico based, globally aligned</p>
+        <p className="eyebrow">Albuquerque based, globally aligned</p>
         <h1 className="page-title">
           Business and digital solutions with a clear path from idea to execution.
         </h1>
@@ -91,7 +91,7 @@ export default function Home() {
       <section className="section-grid" aria-label="Company details">
         <article className="surface-card">
           <h3>Headquarters</h3>
-          <p>New Mexico, United States</p>
+          <p>1209 Mountain Road Pl NE Ste R, Albuquerque, NM 87110</p>
         </article>
 
         <article className="surface-card">

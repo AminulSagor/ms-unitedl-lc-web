@@ -8,7 +8,7 @@ const contactCards = [
   },
   {
     title: "Location",
-    value: "New Mexico, United States",
+    value: "1209 Mountain Road Pl NE Ste R, Albuquerque, NM 87110",
     detail: "Serving clients across regions through remote-first collaboration.",
   },
   {
@@ -32,7 +32,7 @@ export default function Contact() {
 
         <div className="page-actions">
           <a href="mailto:mosharrafhossain@msunitedlc.com" className="button button--primary">
-            Email mosharrafhossain@msunitedlc.com
+            Email{/*  mosharrafhossain@msunitedlc.com */}
           </a>
           <Link href="/services" className="button button--secondary">
             Review Services First

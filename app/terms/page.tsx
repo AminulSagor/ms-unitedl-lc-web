@@ -7,7 +7,7 @@ const termsSections = [
   {
     title: "Company Information",
     content:
-      "M&S United LLC is based in New Mexico, United States. We provide business, digital, software, and web-related services.",
+      "M&S United LLC is based at 1209 Mountain Road Pl NE Ste R, Albuquerque, NM 87110. We provide business, digital, software, and web-related services.",
   },
   {
     title: "No Warranty",
